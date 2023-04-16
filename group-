@@ -69,4 +69,5 @@ avahi:x:70:
 postdrop:x:90:
 postfix:x:89:
 tcpdump:x:72:
-admin:x:1000:
+admin:x:1000:admin
+work:x:1001:

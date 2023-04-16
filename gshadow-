@@ -69,4 +69,5 @@ avahi:!::
 postdrop:!::
 postfix:!::
 tcpdump:!::
-admin:!!::
+admin:!!::admin
+work:!::
