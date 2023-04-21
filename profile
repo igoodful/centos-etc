@@ -71,6 +71,20 @@ for i in /etc/profile.d/*.sh /etc/profile.d/sh.local ; do
         fi
     fi
 done
-
 unset i
 unset -f pathmunge
+export PATH=$PATH:/usr/local/bin
+ip addr add 192.168.0.201/24 dev wlp3s0 label wlp3s0:1
+ip addr add 192.168.0.202/24 dev wlp3s0 label wlp3s0:2
+ip addr add 192.168.0.203/24 dev wlp3s0 label wlp3s0:3
+ip addr add 192.168.0.204/24 dev wlp3s0 label wlp3s0:4
+ip addr add 192.168.0.205/24 dev wlp3s0 label wlp3s0:5
+ip addr add 192.168.0.206/24 dev wlp3s0 label wlp3s0:6
+ip addr add 192.168.0.207/24 dev wlp3s0 label wlp3s0:7
+ip addr add 192.168.0.208/24 dev wlp3s0 label wlp3s0:8
+ip addr add 192.168.0.209/24 dev wlp3s0 label wlp3s0:9
+ip addr add 192.168.0.210/24 dev wlp3s0 label wlp3s0:10
+
+
+
+
