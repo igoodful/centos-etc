@@ -84,7 +84,4 @@ ip addr add 192.168.0.207/24 dev wlp3s0 label wlp3s0:7
 ip addr add 192.168.0.208/24 dev wlp3s0 label wlp3s0:8
 ip addr add 192.168.0.209/24 dev wlp3s0 label wlp3s0:9
 ip addr add 192.168.0.210/24 dev wlp3s0 label wlp3s0:10
-
-
-
-
+export PATH=/usr/local/cmake/bin:$PATH
